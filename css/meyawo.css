@@ -61,6 +61,21 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.social-icons a {
+    margin: 10px;
+    color: #000; /* Default color for the icons */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Example: LinkedIn blue on hover */
+}
+
+.social-icons i {
+    font-size: 24px; /* Adjust icon size */
+    transition: color 0.3s ease;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;

@@ -1,631 +1,997 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Hello! I am Shivansh Srivastav, Data Scientist and Machine Learning Engineer.">
-    <meta name="author" content="Devcrud">
-    <title>Portfolio | Shivansh Srivastav</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="A product of emergent.sh">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&amp;display=swap" rel="stylesheet">
+    <title>Shivansh Srivastav | Portfolio</title>
 
-    <!-- Bootstrap + Meyawo main styles -->
-    <link rel="stylesheet" href="css/meyawo.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body>
+    <div id="root">
+        <div class="App">
+            <div class="min-h-screen bg-portfolio text-slate-50 relative">
+                <div class="fixed inset-0 bg-grid-pattern opacity-20 pointer-events-none">
 
-    <!-- Page Navbar -->
-    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="logo" href="#">My Portfolio</a>
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Home</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#about">About</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#blog">Article</a>
-                </li>
-                <li class="item ml-md-3">
-                    <a href="#contact" class="btn btn-primary">Contact</a>
-                </li>
-            </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
                 </div>
-            </a>
-        </div>
-    </nav><!-- End of Page Navbar -->
-
-    <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down">I am Shivansh Srivastav</span>
-            </h1>
-            <p class="header-subtitle">AI Product & ML Systems Engineer </p>
-
-            <a class="btn btn-primary" href="#portfolio">Visit My Works</a>
-		<a class="btn btn-primary" href="Product_Focused_Shivansh Srivastav_CV.docx">Download CV</a>
-        </div>
-    </header><!-- end of page header -->
-
-    <!-- about section -->
-    <section class="section pt-0" id="about">
-        <!-- container -->
-        <div class="container text-center">
-            <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder" style="margin-top: -5%">
-                    <img src="imgs/avatar-img.png" class="about-img"
-                        alt="Shivansh Srivastav">
+                <div class="fixed inset-0 overflow-hidden pointer-events-none">
+                    <div class="orb orb-1"></div>
+                    <div class="orb orb-2"></div>
+                    <div class="orb orb-3"></div>
                 </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3" style="text-decoration: underline">About Me</h2>
-                    <p>
-			    	AI Product & ML Systems Engineer building scalable, production-grade LLM platforms.
-
-I specialize in converting ambiguous business problems into high-ROI AI systems—optimizing for cost efficiency, latency, reliability, and long-term architectural durability. My work sits at the intersection of LLM infrastructure, applied machine learning, and product strategy.
-
-Recently, I led the transition from API-dependent LLM usage to a self-hosted inference architecture—preventing projected six-figure annual costs while improving latency by 70% and achieving 8× throughput gains. I designed multi-layer caching systems (95% hit rate), fault-isolated inference pipelines, and secure deployment boundaries using mTLS, JWT authentication, and secret management best practices.
-
-Beyond infrastructure, I’ve driven measurable product outcomes:
-• 40% reduction in workflow time
-• 35% ARR growth via AI-enabled features
-• 42% increase in application conversion through ranking optimization
-• 30%+ operational efficiency improvements in manufacturing use cases
-
-I’m particularly interested in:
-
-• Scalable LLM orchestration
-• Retrieval-augmented systems (RAG)
-• Cost-aware AI infrastructure
-• Reliability engineering for AI products
-• Designing systems that balance experimentation velocity with production stability
-
-I value strong architectural decisions, clean trade-offs, and eliminating complexity that doesn’t translate into business impact.
-					</p>
-			<p>Connect with me here!</p>
-		                <a href="https://www.linkedin.com/in/shivansh-srivastav/" class="link"><i class="fab fa-linkedin" style="font-size:24px"></i></a>
-		                <a href="javascript:void(0)" class="link"><i class="fab fa-orcid" style="font-size:24px"></i></a>
-		                <a href="https://github.com/shivansh408" class="link"><i class="fab fa-github" style="font-size:24px"></i></a>
-		           
-                </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
-
-    <section class="ftco-section ftco-partner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm ftco-animate fadeInUp ftco-animated">
-                        <a href="https://www.linkedin.com/learning/certificates/abcffd0c93531aa5ba9d11a84f5554c08259e66992f4195b64cc44a94a861d84?u=92695330" class="partner"><img src="imgs/cer1.png" class="img-fluid" alt="Colorlib Template"></a>
-                    </div>
-                    <div class="col-sm ftco-animate fadeInUp ftco-animated">
-                        <a href="https://www.linkedin.com/learning/certificates/3060cf281611d27c423c494fdc9ff52958fcbc3b05c9f44dbda638037efb0d82?u=92695330" class="partner"><img src="imgs/cer2.png" class="img-fluid" alt="Colorlib Template"></a>
-                    </div>
-                    <div class="col-sm ftco-animate fadeInUp ftco-animated">
-                        <a href="https://www.linkedin.com/learning/certificates/71ece036646244b79e4bf24d3019aa53907349f8e92d2648a90a232103157563?u=92695330" class="partner"><img src="imgs/t1.png" class="img-fluid" alt="Colorlib Template"></a>
-                    </div>
-                    <div class="col-sm ftco-animate fadeInUp ftco-animated">
-                        <a href="https://www.linkedin.com/learning/certificates/66d23c4f90c1babd99e730f6894766fb6d27e696bbb5f52a7a0dfe6101b5ec48?u=92695330" class="partner"><img src="imgs/t5.png" class="img-fluid" alt="Colorlib Template"></a>
-                    </div>
-                    <div class="col-sm ftco-animate fadeInUp ftco-animated">
-                        <a href="#" class="partner"><img src="imgs/forage.png" class="img-fluid" alt="Colorlib Template"></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <section class="section" id="portfolio">
-            <div class="container text-center">
-                <p class="section-subtitle">What Projects I Did ?</p>
-                <h6 class="section-title mb-6" style="text-decoration: underline">Portfolio</h6>
-                
-                <div class="row">
-			<div class="blog-card col-md-7">
-                                <div class="blog-card-body">
-                                    <h5 class="blog-card-title">Adversarial and Unsupervised Learning for Biologically Plausible Vision Networks </h6>
-                
-                                        <p><b><u>Objective:</u></b>
-                                                Goal of the project is to Combining adversarial training and unsupervised learning in vision foundation models to build more biologically plausible vision neural networks.                                            
-						<br><u><b>Results:</u></b> Fortified network resilience, achieving a 30% reduction in adversarial vulnerability and error rates across complex visual datasets.
-						Identified that Token Masking outperforms traditional Image Masking in ViT-based encoders, while adding FD loss or HRDA leads to a decrease in mIoU, suggesting these components may be redundant in the final VFM-UDA method.
-
-						</p>
-                                        <a href="https://github.com/shivansh408/Adversarial-and-Unsupervised-Learning-for-Biologically-Plausible-Vision-Networks" class="btn-rounded btn btn-primary">See Project <i class="ti-angle-double-right"></i></a>
-                                </div>
+                <header class="fixed top-0 left-0 right-0 glass-morphism z-50 border-b border-white/10">
+                    <nav class="max-w-7xl mx-auto px-6 py-4">
+                        <div class="flex items-center justify-between">
+                            <div class="text-2xl font-bold"><span class="gradient-text">Shivansh Srivastav</span></div>
+                            <div class="hidden md:flex items-center gap-8"><span style="display: contents;"><button
+                                        class="text-sm font-medium hover:text-cyan-400 transition-all capitalize relative group text-cyan-400"><span
+                                            style="display: contents;"><a href="#home">home</a></span><span
+                                            class="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-cyan-400 to-violet-400 transition-all w-full"></span></button><button
+                                        class="text-sm font-medium hover:text-cyan-400 transition-all capitalize relative group text-slate-300"><span
+                                            style="display: contents;"><a href="#about">about</a></span><span
+                                            class="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-cyan-400 to-violet-400 transition-all w-0 group-hover:w-full"></span></button><button
+                                        class="text-sm font-medium hover:text-cyan-400 transition-all capitalize relative group text-slate-300"><span
+                                            style="display: contents;"><a href="#skills">skills</a></span><span
+                                            class="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-cyan-400 to-violet-400 transition-all w-0 group-hover:w-full"></span></button><button
+                                        class="text-sm font-medium hover:text-cyan-400 transition-all capitalize relative group text-slate-300"><span
+                                            style="display: contents;"><a href="#projects">projects</a></span><span
+                                            class="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-cyan-400 to-violet-400 transition-all w-0 group-hover:w-full"></span></button><button
+                                        class="text-sm font-medium hover:text-cyan-400 transition-all capitalize relative group text-slate-300"><span
+                                            style="display: contents;"><a href="#articles">articles</a></span><span
+                                            class="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-cyan-400 to-violet-400 transition-all w-0 group-hover:w-full"></span></button><button
+                                        class="text-sm font-medium hover:text-cyan-400 transition-all capitalize relative group text-slate-300"><span
+                                            style="display: contents;"><a href="#testimonials">testimonials</a></span><span
+                                            class="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-cyan-400 to-violet-400 transition-all w-0 group-hover:w-full"></span></button><button
+                                        class="text-sm font-medium hover:text-cyan-400 transition-all capitalize relative group text-slate-300"><span
+                                            style="display: contents;"><a href="#contact">contact</a></span><span
+                                            class="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-cyan-400 to-violet-400 transition-all w-0 group-hover:w-full"></span></button></span><button
+                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 
+                                    [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-8 rounded-md px-3 text-xs gradient-button">
+                                    <a href="Product_Focused_Shivansh Srivastav_CV.docx">Resume</a></button>
+                            </div><button class="md:hidden text-cyan-400"><span style="display: contents;"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
+                                        <path d="M4 12h16"></path>
+                                        <path d="M4 18h16"></path>
+                                        <path d="M4 6h16"></path>
+                                    </svg></span></button>
+                        </div><span style="display: contents;"></span>
+                    </nav>
+                </header>
+                <section id="home" class="min-h-screen flex items-center justify-center px-6 pt-20 relative">
+                    <div class="max-w-6xl mx-auto text-center space-y-8 relative z-10">
+                        <div
+                            class="inline-flex items-center gap-2 glass-morphism px-5 py-2 rounded-full text-cyan-400 text-sm border border-cyan-400/30 hover:border-cyan-400/60 transition-all">
+                            <span class="font-medium">Available for Opportunities</span></div>
+                        <h1 class="text-6xl md:text-8xl lg:text-9xl font-extrabold tracking-tight leading-none"><span
+                                class="gradient-text-hero"><span style="display: contents;">Shivansh
+                                    Srivastav</span></span></h1>
+                        <div class="flex items-center justify-center gap-3"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-terminal text-violet-400" aria-hidden="true">
+                                <polyline points="4 17 10 11 4 5"></polyline>
+                                <line x1="12" x2="20" y1="19" y2="19"></line>
+                            </svg>
+                            <h2 class="text-3xl md:text-5xl font-bold text-slate-200"><span
+                                    style="display: contents;">AI Product & ML Systems Engineer</span></h2>
                         </div>
-                        
-                                <div class="blog-card">
-                                        
-                                <div class="blog-card-header">
+                        <p class="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-light"><span
+                                style="display: contents;">Building scalable, production-ready AI systems and
+                                intelligent applications.</span></p>
+                        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8"><button
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-8 gradient-button text-base group shadow-xl shadow-cyan-500/25 hover:shadow-2xl hover:shadow-cyan-500/40">View
+                                Projects<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-arrow-right ml-2 group-hover:translate-x-1 transition-transform"
+                                    aria-hidden="true">
+                                    <path d="M5 12h14"></path>
+                                    <path d="m12 5 7 7-7 7"></path>
+                                </svg></button><button
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-10 rounded-md px-8 glass-button text-base">
+                                <a href="Product_Focused_Shivansh Srivastav_CV.docx">Download Resume</a></button></div>
+                        <div class="flex items-center justify-center gap-4 pt-8"><a
+                                href="https://github.com/shivansh408" target="_blank" rel="noopener noreferrer"
+                                class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
+                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                </svg></a><a href="https://linkedin.com/in/shivansh-srivastav" target="_blank"
+                                rel="noopener noreferrer" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-linkedin" aria-hidden="true">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect width="4" height="12" x="2" y="9"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg></a><a href="mailto:shivanshthedeveloper@gmail.com" class="social-icon"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-mail" aria-hidden="true">
+                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                </svg></a></div>
+                    </div>
+                </section>
+                <section id="certificates" class="py-24 px-6 relative z-10">
+                    <div class="max-w-5xl mx-auto">
+
+                        <div class="flex flex-nowrap overflow-x-auto md:overflow-visible gap-6 pb-8 cert-scroll-container">
+                            <div class="min-w-[280px] flex-1">
+                                <a href="https://www.linkedin.com/learning/certificates/abcffd0c93531aa5ba9d11a84f5554c08259e66992f4195b64cc44a94a861d84?u=92695330" target="_blank" class="cert-card">
+                                    <img src="imgs/cer1.png" class="rounded-lg shadow-2xl" alt="Machine Learning Certificate">
+                                </a>
+                            </div>
+                            <div class="min-w-[280px] flex-1">
+                                <a href="https://www.linkedin.com/learning/certificates/3060cf281611d27c423c494fdc9ff52958fcbc3b05c9f44dbda638037efb0d82?u=92695330" target="_blank" class="cert-card">
+                                    <img src="imgs/cer2.png" class="rounded-lg shadow-2xl" alt="Data Science Certificate">
+                                </a>
+                            </div>
+                            <div class="min-w-[280px] flex-1">
+                                <a href="https://www.linkedin.com/learning/certificates/71ece036646244b79e4bf24d3019aa53907349f8e92d2648a90a232103157563?u=92695330" target="_blank" class="cert-card">
+                                    <img src="imgs/t1.png" class="rounded-lg shadow-2xl" alt="Data Visualization Certificate">
+                                </a>
+                            </div>
+                            <div class="min-w-[280px] flex-1">
+                                <a href="https://www.linkedin.com/learning/certificates/66d23c4f90c1babd99e730f6894766fb6d27e696bbb5f52a7a0dfe6101b5ec48?u=92695330" target="_blank" class="cert-card">
+                                    <img src="imgs/t5.png" class="rounded-lg shadow-2xl" alt="Leadership Certificate">
+                                </a>
+                            </div>
+                            <div class="min-w-[280px] flex-1">
+                                <a href="#" target="_blank" class="cert-card">
+                                    <img src="imgs/forage.png" class="rounded-lg shadow-2xl" alt="J.P. Morgan Certificate">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="about" class="py-24 px-6 relative z-10">
+                    <div class="max-w-5xl mx-auto">
+                        <div class="flex items-center gap-4 mb-12"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-briefcase text-cyan-400" aria-hidden="true">
+                                <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                            </svg>
+                            <h2 class="text-4xl md:text-5xl font-bold gradient-text">About Me</h2>
+                            <div class="flex-1 h-px bg-gradient-to-r from-cyan-500/50 via-violet-500/50 to-transparent">
+                            </div>
+                        </div>
+                        <div class="glass-card hover:scale-[1.02] transition-all duration-300 p-8 md:p-10">
+                            <div class="text-slate-300 text-lg md:text-xl leading-relaxed space-y-6">
+                                
+                                <p>
+                                    <strong class="text-white">AI Product & ML Systems Engineer</strong> building scalable, production-grade LLM platforms.
+                                </p>
+
+                                <p>
+                                    I specialize in converting ambiguous business problems into <strong class="text-cyan-400">high-ROI AI systems</strong>—optimizing for cost efficiency, latency, reliability, and long-term architectural durability. My work sits at the intersection of LLM infrastructure, applied machine learning, and product strategy.
+                                </p>
+
+                                <p>
+                                    Recently, I led the transition from API-dependent LLM usage to a <strong class="text-violet-400">self-hosted inference architecture</strong>—preventing projected six-figure annual costs while improving latency by <strong>70%</strong> and achieving <strong>8× throughput gains</strong>. I designed multi-layer caching systems (95% hit rate), fault-isolated inference pipelines, and secure deployment boundaries.
+                                </p>
+
+                                <div>
+                                    <p class="mb-3 font-bold text-white">Beyond infrastructure, I’ve driven measurable product outcomes:</p>
+                                    <ul class="list-disc pl-6 space-y-2 marker:text-[#E0563F]">
+                                        <li>• 40% reduction in workflow time</li>
+                                        <li>• 35% ARR growth via AI-enabled features</li>
+                                        <li>• 42% increase in application conversion through ranking optimization</li>
+                                        <li>• 30%+ operational efficiency improvements in manufacturing use cases</li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <p class="mb-3 font-bold text-white">I’m particularly interested in:</p>
+                                    <ul class="list-disc pl-6 space-y-2 marker:text-[#D174D2]">
+                                        <li>• Scalable LLM orchestration</li>
+                                        <li>• Retrieval-augmented systems (RAG)</li>
+                                        <li>• Cost-aware AI infrastructure</li>
+                                        <li>• Reliability engineering for AI products</li>
+                                        <li>• Designing systems that balance experimentation velocity with production stability</li>
+                                    </ul>
+                                </div>
+
+                                <p class="border-t border-white/10 italic">
+                                    <div class="mt-8 p-4 rounded-lg bg-gradient-to-r from-[#412653]/40 to-transparent border-l-2 border-[#D174D2]">
+                                        <p class="text-sm font-medium tracking-wide uppercase text-[#D174D2] mb-1">Philosophy</p>
+                                        <p class="text-slate-200 font-light leading-relaxed" style="font-style: italic !important;">
+                                            <span class="text-[#D174D2] text-2xl mr-1">“</span>
+                                            I value strong architectural decisions, clean trade-offs, and eliminating complexity that doesn’t translate into business impact.
+                                        </p>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                </section>
+                <section id="skills" class="py-24 px-6 relative z-10">
+                    <div class="max-w-6xl mx-auto">
+                        <div class="flex items-center gap-4 mb-12"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-code-xml text-violet-400" aria-hidden="true">
+                                <path d="m18 16 4-4-4-4"></path>
+                                <path d="m6 8-4 4 4 4"></path>
+                                <path d="m14.5 4-5 16"></path>
+                            </svg>
+                            <h2 class="text-4xl md:text-5xl font-bold gradient-text">Skills &amp; Technologies</h2>
+                            <div class="flex-1 h-px bg-gradient-to-r from-violet-500/50 via-pink-500/50 to-transparent">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><span
+                                style="display: contents;">
+                                <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div class="h-1 bg-gradient-to-r from-cyan-400 to-blue-500"></div>
+                                    <div class="p-6">
+                                        <h3
+                                            class="text-cyan-400 capitalize text-xl font-bold mb-4 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-code-xml" aria-hidden="true">
+                                                <path d="m18 16 4-4-4-4"></path>
+                                                <path d="m6 8-4 4 4 4"></path>
+                                                <path d="m14.5 4-5 16"></path>
+                                            </svg><span style="display: contents;">Programming</span></h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="skill-tag border-cyan-400/50">Python</span>
+                                            <span class="skill-tag border-cyan-400/50">SQL</span>
+                                            <span class="skill-tag border-cyan-400/50">JavaScript</span>
+                                            <span class="skill-tag border-cyan-400/50">C / C++</span>
+                                            <span class="skill-tag border-cyan-400/50">Java</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div class="h-1 bg-gradient-to-r from-violet-400 to-purple-500"></div>
+                                    <div class="p-6">
+                                        <h3 class="text-violet-400 capitalize text-xl font-bold mb-4 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-brain" aria-hidden="true">
+                                                <path d="M12 5a3 3 0 1 0-5.998.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4.5 4.5 0 1 0 12 18.5a2.5 2.5 0 0 1 2.5 2.5c0 .5-.5 1-1 1.5"></path>
+                                                <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4.5 4.5 0 0 1 12 18.5a2.5 2.5 0 0 0-2.5 2.5c0 .5.5 1 1 1.5"></path>
+                                                <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path>
+                                                <path d="M17.599 6.5a3 3 0 0 0 .399-1.3h0a3 3 0 0 1 1.126-2.2"></path>
+                                                <path d="M6.375 3a3 3 0 0 1 1.1 2.2h0a3 3 0 0 0 .399 1.3"></path>
+                                            </svg>
+                                            <span>ML/AI Frameworks</span>
+                                        </h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="skill-tag border-violet-400/50">PyTorch</span>
+                                            <span class="skill-tag border-violet-400/50">TensorFlow</span>
+                                            <span class="skill-tag border-violet-400/50">Scikit-learn</span>
+                                            <span class="skill-tag border-violet-400/50">XGBoost</span>
+                                            <span class="skill-tag border-violet-400/50">LightGBM</span>
+                                            <span class="skill-tag border-violet-400/50">Keras</span>
+                                            <span class="skill-tag border-violet-400/50">Hugging Face Transformers</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div class="h-1 bg-gradient-to-r from-pink-400 to-rose-500"></div>
+                                    <div class="p-6">
+                                        <h3 class="text-pink-400 capitalize text-xl font-bold mb-4 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-message-square-text" aria-hidden="true">
+                                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                                <path d="M13 8H7"></path>
+                                                <path d="M17 12H7"></path>
+                                            </svg>
+                                            <span>NLP & Conversational AI</span>
+                                        </h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="skill-tag border-pink-400/50">LLMs (GPT, BERT, Llama)</span>
+                                            <span class="skill-tag border-pink-400/50">ASR</span>
+                                            <span class="skill-tag border-pink-400/50">TTS/STT</span>
+                                            <span class="skill-tag border-pink-400/50">Intent Recognition</span>
+                                            <span class="skill-tag border-pink-400/50">Semantic Search</span>
+                                            <span class="skill-tag border-pink-400/50">RAG</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div class="h-1 bg-gradient-to-r from-emerald-400 to-teal-500"></div>
+                                    <div class="p-6">
+                                        <h3 class="text-emerald-400 capitalize text-xl font-bold mb-4 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-server" aria-hidden="true">
+                                                <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
+                                                <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
+                                                <line x1="6" x2="6.01" y1="6" y2="6"></line>
+                                                <line x1="6" x2="6.01" y1="18" y2="18"></line>
+                                            </svg>
+                                            <span>MLOps & Cloud</span>
+                                        </h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="skill-tag border-emerald-400/50">Docker</span>
+                                            <span class="skill-tag border-emerald-400/50">Kubernetes</span>
+                                            <span class="skill-tag border-emerald-400/50">AWS (EC2, S3, Lambda)</span>
+                                            <span class="skill-tag border-emerald-400/50">Azure</span>
+                                            <span class="skill-tag border-emerald-400/50">MLflow</span>
+                                            <span class="skill-tag border-emerald-400/50">CI/CD</span>
+                                            <span class="skill-tag border-emerald-400/50">Jenkins</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div class="h-1 bg-gradient-to-r from-orange-400 to-amber-500"></div>
+                                    <div class="p-6">
+                                        <h3 class="text-orange-400 capitalize text-xl font-bold mb-4 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-database" aria-hidden="true">
+                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                            </svg>
+                                            <span>Databases</span>
+                                        </h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="skill-tag border-orange-400/50">PostgreSQL</span>
+                                            <span class="skill-tag border-orange-400/50">MySQL</span>
+                                            <span class="skill-tag border-orange-400/50">MongoDB</span>
+                                            <span class="skill-tag border-orange-400/50">Redis</span>
+                                            <span class="skill-tag border-orange-400/50">Neo4j</span>
+                                            <span class="skill-tag border-orange-400/50">Milvus (Vector DB)</span>
+                                            <span class="skill-tag border-orange-400/50">SQL Query Optimization</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div class="h-1 bg-gradient-to-r from-indigo-400 to-blue-500"></div>
+                                    <div class="p-6">
+                                        <h3 class="text-indigo-400 capitalize text-xl font-bold mb-4 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-tools" aria-hidden="true">
+                                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                                            </svg>
+                                            <span>Tools</span>
+                                        </h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="skill-tag border-indigo-400/50">Git</span>
+                                            <span class="skill-tag border-indigo-400/50">Jupyter</span>
+                                            <span class="skill-tag border-indigo-400/50">Jira</span>
+                                            <span class="skill-tag border-indigo-400/50">Postman</span>
+                                            <span class="skill-tag border-indigo-400/50">REST APIs</span>
+                                            <span class="skill-tag border-indigo-400/50">Excel</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </span></div>
+                    </div>
+                </section>
+                <section id="projects" class="py-24 px-6 relative z-10">
+                    <div class="max-w-6xl mx-auto">
+                        <div class="flex items-center gap-4 mb-12"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-terminal text-pink-400" aria-hidden="true">
+                                <polyline points="4 17 10 11 4 5"></polyline>
+                                <line x1="12" x2="20" y1="19" y2="19"></line>
+                            </svg>
+                            <h2 class="text-4xl md:text-5xl font-bold gradient-text">Featured Projects</h2>
+                            <div class="flex-1 h-px bg-gradient-to-r from-pink-500/50 via-orange-500/50 to-transparent">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6"><span style="display: contents;">
+                            <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div
+                                        class="h-40 bg-gradient-to-br from-cyan-500/30 via-blue-500/20 to-transparent relative flex items-center justify-center">
                                         <img src="imgs/vnetwork.gif" class="blog-card-img"
                                             alt="vision network">
+                                    </div>
+                                    <div class="p-6">
+                                        <div class="flex items-start justify-between gap-3 mb-3">
+                                            <h3
+                                                class="text-slate-100 text-xl font-bold group-hover:text-cyan-400 transition-colors flex-1">
+                                                <span style="display: contents;">Adversarial and Unsupervised Learning
+                                                    for Vision Networks</span></h3><a
+                                                href="https://github.com/shivansh408/Adversarial-and-Unsupervised-Learning-for-Biologically-Plausible-Vision-Networks" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="p-2 rounded-lg glass-morphism text-slate-400 hover:text-cyan-400 transition-all flex-shrink-0"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                        <p class="text-slate-400 leading-relaxed mb-4"><span
+                                                style="display: contents;">Fortified network resilience, achieving a 30% reduction in adversarial vulnerability and error rates across complex visual datasets.
+						Identified that Token Masking outperforms traditional Image Masking in ViT-based encoders, while adding FD loss or HRDA leads to a decrease in mIoU, suggesting these components may be redundant in the final VFM-UDA method.
+
+						</span></p>
+                                        <div class="flex flex-wrap gap-2"><span style="display: contents;"><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">PyTorch</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Python</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Computer Vision</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">GANs</span></span></span></div>
+                                    </div>
                                 </div>
-                                
-                        </div>
-			 <div class="blog-card col-md-7">
-                                <div class="blog-card-body">
-                                    <h5 class="blog-card-title">Automated HRM with Video Interview Platform </h6>
-                
-                                        <p><b><u>Objective:</u></b>
-                                                To Develope an automated HRM system integrating a video interview platform to streamline candidate assessment
-						which can result a reduction in recruitment time and an increase in assessment accuracy.                                            
-						<br><u><b>Results:</u></b> Reduced recruitment time by 40% using advanced analytics, with Milvus DB for fast similarity searches and AWS cloud for scalable infrastructure.
-					Increased assessment accuracy by 30% by integrating machine learning algorithms and leveraging Llama for prompt engineering, and employing computer vision techniques for Resume parsing.
-					</p>
-                                        <a href="https://github.com/shivansh408/automated_hrm" class="btn-rounded btn btn-primary">See Project <i class="ti-angle-double-right"></i></a>
-                                </div>
-                        </div>
-                        
-                                <div class="blog-card">
-                                        
-                                <div class="blog-card-header">
+                                <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div
+                                        class="h-40 bg-gradient-to-br from-violet-500/30 via-purple-500/20 to-transparent relative flex items-center justify-center">
                                         <img src="imgs/vchatbot.gif" class="blog-card-img"
-                                            alt="video chatbot">
+                                            alt="video chatbot">    
+                                    </div>
+                                    <div class="p-6">
+                                        <div class="flex items-start justify-between gap-3 mb-3">
+                                            <h3
+                                                class="text-slate-100 text-xl font-bold group-hover:text-cyan-400 transition-colors flex-1">
+                                                <span style="display: contents;">Automated HRM with Video Interview
+                                                    Platform</span></h3><a href="https://github.com/shivansh408/automated_hrm"
+                                                target="_blank" rel="noopener noreferrer"
+                                                class="p-2 rounded-lg glass-morphism text-slate-400 hover:text-cyan-400 transition-all flex-shrink-0"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                        <p class="text-slate-400 leading-relaxed mb-4"><span
+                                                style="display: contents;">Reduced recruitment time by 40% using advanced analytics, with Milvus DB for fast similarity searches and AWS cloud for scalable infrastructure.
+					Increased assessment accuracy by 30% by integrating machine learning algorithms and leveraging Llama for prompt engineering, and employing computer vision techniques for Resume parsing.
+					</span></p>
+                                        <div class="flex flex-wrap gap-2"><span style="display: contents;"><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Fastapi</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Python</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">ML</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Video Processing</span></span></span>
+                                        </div>
+                                    </div>
                                 </div>
-                                
-                        </div>
-                        <div class="blog-card col-md-7">
-                                <div class="blog-card-body">
-                                    <h5 class="blog-card-title">GPT-3 chatbot for Q&A </h6>
-                
-                                        <p><b><u>Objective:</u></b>
-                                                Identify the factors affecting end-of-life-care treatment among black patients. This project will serve as a useful view for bias and fairness in clinical data without Racial and Ethnic Disparities. 
-                                            <br><u><b>Results:</u></b> Racial Treatment Disparities in MIMIC and, eICU 
-                                                Noncompliance-derived Treatment Disparities Autopsy-derived and, 
-                                                Sentiment-derived Treatment Disparities Racial Disparities in Trust</p>
-                                        <a href="#" class="btn-rounded btn btn-primary">See Project <i class="ti-angle-double-right"></i></a>
-                                </div>
-                        </div>
-                        
-                                <div class="blog-card">
-                                        
-                                <div class="blog-card-header">
+                                <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div
+                                        class="h-40 bg-gradient-to-br from-pink-500/30 via-rose-500/20 to-transparent relative flex items-center justify-center">
                                         <img src="imgs/chatbot.gif" class="blog-card-img"
-                                            alt="chatbot">
+                                            alt="chatbot">    
+                                    </div>
+                                    <div class="p-6">
+                                        <div class="flex items-start justify-between gap-3 mb-3">
+                                            <h3
+                                                class="text-slate-100 text-xl font-bold group-hover:text-cyan-400 transition-colors flex-1">
+                                                <span style="display: contents;">GPT-based Chatbot for Q&amp;A</span>
+                                            </h3><a href="#" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="p-2 rounded-lg glass-morphism text-slate-400 hover:text-cyan-400 transition-all flex-shrink-0"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                        <p class="text-slate-400 leading-relaxed mb-4"><span
+                                                style="display: contents;">Built an intelligent question-answering
+                                                chatbot leveraging GPT models. Implemented context-aware responses,
+                                                conversation memory, and domain-specific fine-tuning for enhanced
+                                                accuracy.</span></p>
+                                        <div class="flex flex-wrap gap-2"><span style="display: contents;"><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">OpenAI GPT</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Python</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">NLP</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">FastAPI</span></span></span></div>
+                                    </div>
                                 </div>
-                                
-                        </div>
-                        <div class="blog-card col-md-7">
-                                <div class="blog-card-body">
-                                    <h5 class="blog-card-title">Predicting Cloud CPU utilization using Deep learning LSTM model</h6>
-                
-                                        <p><b><u>Objective</u></b>:
-                                            We used feature selection- like min, max, and average usage from the Azure dataset to predict the VM workload from the CPU usage. 
-                                            <br><b><u>Results</u></b>: Evaluation metrics show results with the LSTM model and it scales up the load if the usage is higher 
-                                            and deallocate VMs if usage decreases. Concluded that Cloud service providers can use their workloads’ characteristics and ML – DL techniques to enhance resource management by 3.1%.</p>
-                
-                                        <a href="https://github.com/shivansh408/Cloud-CPU-Utilization-Deeplearning" class="btn-rounded btn btn-primary">See Project <i class="ti-angle-double-right"></i></a>
-                                </div>
-                        </div>
-                        <div class="blog-card">
-                                <div class="blog-card-header">
+                                <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div
+                                        class="h-40 bg-gradient-to-br from-emerald-500/30 via-teal-500/20 to-transparent relative flex items-center justify-center">
                                         <img src="imgs/cloud01.gif" class="blog-card-img"
-                                            alt="Predicting Cloud CPU utilization using Deep learning LSTM model">
+                                            alt="Cloud CPU Utilization Prediction with LSTM">    
+                                    </div>
+                                    <div class="p-6">
+                                        <div class="flex items-start justify-between gap-3 mb-3">
+                                            <h3
+                                                class="text-slate-100 text-xl font-bold group-hover:text-cyan-400 transition-colors flex-1">
+                                                <span style="display: contents;">Cloud CPU Utilization Prediction with
+                                                    LSTM</span></h3><a href="https://github.com/shivansh408/Cloud-CPU-Utilization-Deeplearning"
+                                                target="_blank" rel="noopener noreferrer"
+                                                class="p-2 rounded-lg glass-morphism text-slate-400 hover:text-cyan-400 transition-all flex-shrink-0"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                        <p class="text-slate-400 leading-relaxed mb-4"><span
+                                                style="display: contents;">Designed and deployed an LSTM-based time
+                                                series forecasting model to predict cloud CPU utilization. Enabled
+                                                proactive resource scaling and cost optimization for cloud
+                                                infrastructure.</span></p>
+                                        <div class="flex flex-wrap gap-2"><span style="display: contents;"><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">LSTM</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">TensorFlow</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Time Series</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Python</span></span></span></div>
+                                    </div>
                                 </div>
-                        </div>
-
-                        <div class="blog-card col-md-7">
-                                <div class="blog-card-body">
-                                    <h5 class="blog-card-title">Diagnosing cancerous & non-cancerous breast tumours</h6>
-                
-                                        <p><b><u>Objective</u></b>:
-                                                The objective of the project is to Predict whether the tumor is cancerous (Malignant) type or non-cancerous (Benign) type by taking a 569 samples of breast tissues and performing analysis after feature selection.
-                                                <br><b><u>Results</u></b>: Plotted Model performance graph of different ML algorithms and the result shows increment of 27%. Concluded a prediction accuracy of 99.1% (highest) with Logistic Regression classifier.</p>
-                
-                                        <a href="https://github.com/shivansh408/Breast-cancer-diagnosis-using-Machinelearning" class="btn-rounded btn btn-primary">See Project <i class="ti-angle-double-right"></i></a>
-                                </div>
-                        </div>
-                        <div class="blog-card">
-                                <div class="blog-card-header">
+                                <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div
+                                        class="h-40 bg-gradient-to-br from-orange-500/30 via-amber-500/20 to-transparent relative flex items-center justify-center">
                                         <img src="imgs/bcancer.jpg" class="blog-card-img"
-                                            alt="Diagnosing cancerous and non-cancerous breast tumours">
+                                            alt="Diagnosing cancerous and non-cancerous breast tumours">    
+                                    </div>
+                                    <div class="p-6">
+                                        <div class="flex items-start justify-between gap-3 mb-3">
+                                            <h3
+                                                class="text-slate-100 text-xl font-bold group-hover:text-cyan-400 transition-colors flex-1">
+                                                <span style="display: contents;">Cancer Diagnosis ML Model</span></h3><a
+                                                href="https://github.com/shivansh408/Breast-cancer-diagnosis-using-Machinelearning" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="p-2 rounded-lg glass-morphism text-slate-400 hover:text-cyan-400 transition-all flex-shrink-0"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                        <p class="text-slate-400 leading-relaxed mb-4"><span
+                                                style="display: contents;">The objective of the project is to Predict whether the tumor is cancerous (Malignant) type or non-cancerous (Benign).
+                                                <br>Plotted Model performance graph of different ML algorithms and, Concluded prediction accuracy of 99% with Logistic Regression classifier.</span></p>
+                                        <div class="flex flex-wrap gap-2"><span style="display: contents;"><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Scikit-learn</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Python</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Medical Imaging</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">ML</span></span></span></div>
+                                    </div>
                                 </div>
-                        </div>
-
-			<div class="blog-card col-md-7">
-                                <div class="blog-card-body">
-                                    <h5 class="blog-card-title">Bypass login credential & Captcha using Selenium</h6>
-                
-                                        <p><b><u>Description</u></b>:
-                                                A web automation project that bypasses the Government of India Goods and Services Tax website using login credential information and auto-fills 
-						captcha text by recognizing the speech of the captcha and decoding it into text. 
-                                        <br><br><b>Python, Selenium, Speech library, and Firefox web driver are used in this project and its only purpose is education-based and legal.</b></p>
-                
-                                        <a href="https://github.com/shivansh408/Python-Django-Dynamic-Inventory-Management-Software" class="btn-rounded btn btn-primary">See Project <i class="ti-angle-double-right"></i></a>
-                                </div>
-                        </div>
-                        <div class="blog-card">
-                                <div class="blog-card-header">
+                                <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div
+                                        class="h-40 bg-gradient-to-br from-indigo-500/30 via-blue-500/20 to-transparent relative flex items-center justify-center">
                                         <img src="imgs/bypass.gif" class="blog-card-img"
-                                            alt="bypass login credentials">
+                                            alt="bypass login credentials">    
+                                    </div>
+                                    <div class="p-6">
+                                        <div class="flex items-start justify-between gap-3 mb-3">
+                                            <h3
+                                                class="text-slate-100 text-xl font-bold group-hover:text-cyan-400 transition-colors flex-1">
+                                                <span style="display: contents;">Bypass Credential & Captcha using Selenium</span></h3>
+                                            <a href="https://github.com/shivansh408/Bypass-login-credential-and-Captcha-using-Selenium" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="p-2 rounded-lg glass-morphism text-slate-400 hover:text-cyan-400 transition-all flex-shrink-0"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                        <p class="text-slate-400 leading-relaxed mb-4"><span
+                                                style="display: contents;">Created A web automation project that bypasses the Government of India Goods and Services Tax website using login credential information and auto-fills 
+						captcha text by recognizing the speech of the captcha and decoding it into text. *learning purpose only</span></p>
+                                        <div class="flex flex-wrap gap-2"><span style="display: contents;"><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Selenium</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Python</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Automation</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Testing</span></span></span></div>
+                                    </div>
                                 </div>
-                        </div>
-			
-                        <div class="blog-card col-md-7">
-                                <div class="blog-card-body">
-                                    <h5 class="blog-card-title">Python-Django Dynamic Inventory Management Software</h6>
-                
-                                        <p><b><u>Description</u></b>:
-                                                A web-based python-django Inventory management software. Fully Dynamic software with automated graphs and sales reports, 
-                                                It is also easy to use and consists 5 modules - Employees, Orders (with creating new and monthly reports),
-                                                Products (with add and edit), Customer (with reports).
-                                        <br><br><b>Built-in GST module Inventory management software with customized stock and sales report option.</b></p>
-                
-                                        <a href="https://github.com/shivansh408/Python-Django-Dynamic-Inventory-Management-Software" class="btn-rounded btn btn-primary">See Project <i class="ti-angle-double-right"></i></a>
-                                </div>
-                        </div>
-                        <div class="blog-card">
-                                <div class="blog-card-header">
+                                <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div
+                                        class="h-40 bg-gradient-to-br from-sky-500/30 via-cyan-500/20 to-transparent relative flex items-center justify-center">
                                         <img src="imgs/inventory.gif" class="blog-card-img"
-                                            alt="Inventory management">
+                                            alt="Inventory management">    
+                                    </div>
+                                    <div class="p-6">
+                                        <div class="flex items-start justify-between gap-3 mb-3">
+                                            <h3
+                                                class="text-slate-100 text-xl font-bold group-hover:text-cyan-400 transition-colors flex-1">
+                                                <span style="display: contents;">Django Dynamic Inventory
+                                                    Software</span></h3><a href="https://github.com/shivansh408/Python-Django-Dynamic-Inventory-Management-Software"
+                                                target="_blank" rel="noopener noreferrer"
+                                                class="p-2 rounded-lg glass-morphism text-slate-400 hover:text-cyan-400 transition-all flex-shrink-0"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                        <p class="text-slate-400 leading-relaxed mb-4"><span
+                                                style="display: contents;">Built a full-featured inventory management
+                                                system with real-time tracking, automated reordering, and comprehensive
+                                                reporting. Designed scalable architecture for multi-location
+                                                support.</span></p>
+                                        <div class="flex flex-wrap gap-2"><span style="display: contents;"><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Django</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">PostgreSQL</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Python</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">REST APIs</span></span></span></div>
+                                    </div>
                                 </div>
-                        </div>
-
-			 <div class="blog-card col-md-7">
-                                <div class="blog-card-body">
-                                    <h5 class="blog-card-title">Comic Book Reading Application</h6>
-                
-                                        <p><b><u>Description</u></b>:
-                                                A mobile-compatible Comic book Reading Application, This Comic App  of ours is the single and only platform for every reading needs of the users.
-						The main objective of our app is to inculcate the reading habit in the people of this generation.
-                                        <br><br><b>Most of the comics kids used to read in their childhood are available on the application like Doraemon, Dragon Ball Z, Marvel Comics, etc. present in it.</b></p>
-                
-                                        <a href="https://github.com/shivansh408/Comic-Book-Reading-Application" class="btn-rounded btn btn-primary">See Project <i class="ti-angle-double-right"></i></a>
-                                </div>
-                        </div>
-                        <div class="blog-card">
-                                <div class="blog-card-header">
+                                <div
+                                    class="glass-card hover:scale-105 transition-all duration-300 group overflow-hidden">
+                                    <div
+                                        class="h-40 bg-gradient-to-br from-fuchsia-500/30 via-pink-500/20 to-transparent relative flex items-center justify-center">
                                         <img src="imgs/book.gif" class="blog-card-img"
-                                            alt="mobile application">
+                                            alt="mobile application">    
+                                    </div>
+                                    <div class="p-6">
+                                        <div class="flex items-start justify-between gap-3 mb-3">
+                                            <h3
+                                                class="text-slate-100 text-xl font-bold group-hover:text-cyan-400 transition-colors flex-1">
+                                                <span style="display: contents;">Comic Book Reading Application</span>
+                                            </h3><a href="https://github.com/shivansh408/Comic-Book-Reading-Application" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="p-2 rounded-lg glass-morphism text-slate-400 hover:text-cyan-400 transition-all flex-shrink-0"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></a>
+                                        </div>
+                                        <p class="text-slate-400 leading-relaxed mb-4"><span
+                                                style="display: contents;">Developed an interactive comic book reading
+                                                platform with features like bookmarking, offline reading, and
+                                                personalized recommendations using collaborative filtering.</span></p>
+                                        <div class="flex flex-wrap gap-2"><span style="display: contents;"><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Android</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">iOS</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Mobile development</span></span><span
+                                                    class="text-xs text-cyan-400 font-mono glass-morphism px-3 py-1 rounded-full"><span
+                                                        style="display: contents;">Firebase</span></span></span></div>
+                                    </div>
                                 </div>
-                        </div>
-            </div>
-        </section>
-	
-    <!-- Research section -->
-    <section class="section" id="blog">
-        <!-- container -->
-        <div class="container text-center">
-            <p class="section-subtitle">Research?</p>
-            <h6 class="section-title mb-6" style="text-decoration: underline">Research Project</h6>
-            <!-- blog-wrapper -->
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="imgs/cover_image_research.png" class="blog-card-img"
-                        alt="Research Cover page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Credit Assessment of Applications to Predict Creditworthy and Defaulters</h6>
-
-                        <p>Charge card: The balance is required to be paid in full each month
-		Lending card: Lending cards allow the customer to pay the balance over a period of time subject to interest being charged</p>
-
-                        <p><i><u>"Underwriting is the process by which the lender decides whether an applicant is creditworthy and should receive a credit line.”</u></i>
-                        </p>
-
-                        <a href="https://github.com/shivansh408/Research-Report-on-Customer-Credit-Assessment" class="blog-card-link">See full Research report <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div><!-- end of blog wrapper -->
-
-        </div><!-- end of container -->
-    </section><!-- end of Research section -->
-
-        <section class="section" >
-                <!-- container -->
-                <div class="container text-center">
-                        <p class="section-subtitle">What Skillset have I used?</p>
-                        <h6 class="section-title mb-6" style="text-decoration: underline">Keyskills</h6>
-                    <!-- blog-wrapper -->
-                    <div class="blog-card">
-                            <div class="blog-card-header1">
-                                    <img src="imgs/tup.gif" class="blog-card-img1"
-                                        alt="skillset">
-                            </div>
-                        <div class="blog-card-body col-md-8">
-                                <div class="col-md-8 animate-box">
-                                        <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-                                                <p><b>Data analysis and Visualization</b><br>
-                                            <div class="progress">
-                                                 <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                                  </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8 animate-box">
-                                            <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-                                                    <p><b>Machine Learning Algorithm</b><br>
-                                                <div class="progress">
-                                                     <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                                      </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                <div class="col-md-8 animate-box">
-                                        <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-                                                <p><b>Statistical Modeling</b><br>
-                                            <div class="progress">
-                                                 <div class="progress-bar color-1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                                  </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8 animate-box">
-                                            <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-                                                    <p><b>EDA & Feature Engineering</b><br>
-                                                <div class="progress">
-                                                     <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                                      </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8 animate-box">
-                                        <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-                                                <p><b>Predictive Modeling</b><br>
-                                            <div class="progress">
-                                                 <div class="progress-bar color-1" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                                                  </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8 animate-box">
-                                            <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-                                                    <p><b>Recommendation engines</b><br>
-                                                <div class="progress">
-                                                     <div class="progress-bar color-1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                                      </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8 animate-box">
-                                                <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-                                                        <p><b>Cloud-based Architectures</b><br>
-                                                    <div class="progress">
-                                                         <div class="progress-bar color-1" role="progressbar" aria-valuenow="76 " aria-valuemin="0" aria-valuemax="100" style="width:76%">
-                                                          </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 animate-box">
-                                                    <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
-                                                            <p><b>Natural language processing (NLP)</b><br>
-                                                        <div class="progress">
-                                                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width:82%">
-                                                            
-                                                              </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                        </div>
-                                                
+                            </span></div>
                     </div>
-                    <!-- end of blog wrapper -->
-                </div><!-- end of container -->
-            </section>
-
-        <section class="section" >
-                <!-- container -->
-                <div class="container text-center">
-                        <p class="section-subtitle">From where I completed my Education?</p>
-                    <h6 class="section-title mb-6" style="text-decoration: underline">Education</h6>
-                    <!-- blog-wrapper -->
-                    <div class="blog-card">
-                            <div class="blog-card-header">
-                                    <img src="imgs/story.gif" class="blog-card-img"
-                                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </section>
+                <section id="articles" class="py-24 px-6 relative z-10">
+                    <div class="max-w-5xl mx-auto">
+                        <div class="flex items-center gap-4 mb-12"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-book-open text-emerald-400" aria-hidden="true">
+                                <path d="M12 7v14"></path>
+                                <path
+                                    d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+                                </path>
+                            </svg>
+                            <h2 class="text-4xl md:text-5xl font-bold gradient-text">Articles &amp; Writing</h2>
+                            <div
+                                class="flex-1 h-px bg-gradient-to-r from-emerald-500/50 via-teal-500/50 to-transparent">
                             </div>
-                        <div class="blog-card-body">
-                            <h6 class="blog-card-title">PG: Master of Computer Application </h6>
-        
-                                <p><b> Jain University </b><br>
-                                        08/2021 - 06/2023 Bangalore, INDIA 
-                                        <br>Master’s Project: Credit Assessment for Predicting Defaulter</p>
-
-                                    <h6 class="blog-card-title">UG: Bachelor of Computer Application </h6>
-                                        <p><b> Dr. VSICS Institute</b><br>
-                                            07/2017 - 06/2020 Kanpur, INDIA 
-                                            <br>Bachelor’s Projects: Comic book Reading app, College Administration software</p>
-                
                         </div>
-                                                
+                        <div class="space-y-6"><span style="display: contents;">
+                                <div class="glass-card hover:scale-[1.02] transition-all cursor-pointer group">
+                                    <div class="p-8">
+                                        <div class="flex items-start justify-between gap-4">
+                                            <div class="flex-1">
+                                                <h3
+                                                    class="text-slate-100 text-2xl font-bold mb-3 group-hover:text-violet-400 transition-colors">
+                                                    <span style="display: contents;">Understanding Transformer
+                                                        Architecture in Modern NLP</span></h3>
+                                                <p class="text-slate-400 text-base leading-relaxed mb-4"><span
+                                                        style="display: contents;">A deep dive into the transformer
+                                                        architecture and its impact on natural language processing
+                                                        tasks.</span></p>
+                                                <p class="text-sm text-cyan-400 font-mono"><span
+                                                        style="display: contents;">March 2024</span></p>
+                                            </div>
+                                            <div
+                                                class="p-3 rounded-lg glass-morphism text-slate-400 group-hover:text-violet-400 transition-all">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="glass-card hover:scale-[1.02] transition-all cursor-pointer group">
+                                    <div class="p-8">
+                                        <div class="flex items-start justify-between gap-4">
+                                            <div class="flex-1">
+                                                <h3
+                                                    class="text-slate-100 text-2xl font-bold mb-3 group-hover:text-violet-400 transition-colors">
+                                                    <span style="display: contents;">Production ML Systems: Best
+                                                        Practices</span></h3>
+                                                <p class="text-slate-400 text-base leading-relaxed mb-4"><span
+                                                        style="display: contents;">Key considerations and best practices
+                                                        for deploying machine learning models in production
+                                                        environments.</span></p>
+                                                <p class="text-sm text-cyan-400 font-mono"><span
+                                                        style="display: contents;">February 2024</span></p>
+                                            </div>
+                                            <div
+                                                class="p-3 rounded-lg glass-morphism text-slate-400 group-hover:text-violet-400 transition-all">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="glass-card hover:scale-[1.02] transition-all cursor-pointer group">
+                                    <div class="p-8">
+                                        <div class="flex items-start justify-between gap-4">
+                                            <div class="flex-1">
+                                                <h3
+                                                    class="text-slate-100 text-2xl font-bold mb-3 group-hover:text-violet-400 transition-colors">
+                                                    <span style="display: contents;">LSTM vs Transformers for Time
+                                                        Series Forecasting</span></h3>
+                                                <p class="text-slate-400 text-base leading-relaxed mb-4"><span
+                                                        style="display: contents;">Comparing traditional LSTM approaches
+                                                        with modern transformer-based methods for time series
+                                                        prediction.</span></p>
+                                                <p class="text-sm text-cyan-400 font-mono"><span
+                                                        style="display: contents;">January 2024</span></p>
+                                            </div>
+                                            <div
+                                                class="p-3 rounded-lg glass-morphism text-slate-400 group-hover:text-violet-400 transition-all">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-external-link" aria-hidden="true">
+                                                    <path d="M15 3h6v6"></path>
+                                                    <path d="M10 14 21 3"></path>
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+                                                    </path>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </span></div>
                     </div>
-                    <!-- end of blog wrapper -->
-                </div><!-- end of container -->
-            </section>
+                </section>
+                <section id="testimonials" class="py-24 px-6 relative z-10">
+                    <div class="max-w-6xl mx-auto">
+                        <div class="text-center mb-16">
+                            <p class="text-slate-400 mb-2">What my Topmate's Mentees have to say?</p>
+                            <div class="flex items-center justify-center gap-2 mb-4">
+                                <div class="testimonial-card-img justify-center"><img src="C:\Users\Panzer Tech\Downloads\Topmate.png" alt="topmate"></div>
+                            </div>
+                            <h2 class="text-4xl md:text-5xl font-bold gradient-text">Testimonials</h2>
+                        </div>
 
-    <!-- section -->
-    <section class="ftco-section ftco-hireme img" style="background-image: url(imgs/solutions-shapes@2x.png)">
-    	<div class="overlay"></div>
-			<div class="container">
-				<div class="row justify-content-center" style="padding-top: 18%;">
-					<div class="col-md-7 ftco-animate text-center fadeInUp ftco-animated">
-						<h2>I'm <span>Available</span> for freelancing</h2>
-						<p>Along with Full time working profile, I am also available for freelancing opportunities related with my experties.</p>
-						<p class="mb-0"><a href="mailto:shivanshthedeveloper@gmail.com" class="btn btn-rounded btn-primary py-3 px-5">Hire me</a></p>
-					</div>
-				</div>
-            </div>
-		</section>
-
-    <!-- testimonial section -->
-    <section class="section" id="testmonial">
-        <div class="container text-center">
-            <p class="section-subtitle">What my Topmate's Mentees has to say?</p>
-            <img src="imgs/tpp.png" alt="Download free bootstrap 4" style="max-height: 30px; ">
-            <h6 class="section-title mb-6" style="text-decoration: underline">Testmonial</h6>
-
-            <!-- row -->
-            <div class="col-12" style="padding-left: 25%; padding-right: 25%;">
-                    <div class="testimonial-card-img-holder1">
-                            <img src="imgs/avatar3.jpg" class="testimonial-card-img"
-                                alt="Image shweta">
-                    </div>    
-                <div class="testimonial-card">
-                        <div class="testimonial-card-body" style="padding-top: 50px">
-                                <p class="testimonial-card-subtitle">You did a wonderful guidance session ...thank you Shivansh for sharing
-                                     ur valuable thoughts with me and helping me to take a better decision for my future self.
+                        <div class="space-y-8">
+                            <div class="max-w-3xl mx-auto">
+                                <div class="glass-card p-8 pt-12 relative text-center">
+                                    <div class="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14 rounded-full border-2 border-violet-500 bg-slate-900 overflow-hidden shadow-lg">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Shweta" alt="Shweta" class="w-full h-full object-cover">
+                                    </div>
+                                    <p class="text-slate-300 italic mb-6 leading-relaxed">
+                                        "You did a wonderful guidance session ...thank you Shivansh for sharing ur valuable thoughts with me and helping me to take a better decision for my future self."
                                     </p>
-                                <h6 class="testimonial-card-title">- Shweta</h6>
-                        </div>
-                </div>
-            </div>
-            <div class="row">
-                    
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="imgs/avatar2.jpg" class="testimonial-card-img"
-                                alt="Image sanchit">
-                        </div>
-                        
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">I was searching for words that could describe my happiness about your service
-                                 and how confident I became when I knew exactly what I should do in the next 5-10 years of my life. I know what 
-                                 to do now and which companies to consider when searching for my dream job that fits my personality along with 
-                                 the workplace that is the best fit for me. The career personality report was amazing and the interview was very
-                                  helpful and I am ready now to move forward. Overall the experience was wonderful.
-                                </p>
-                            <h6 class="testimonial-card-title">- Sanchit</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="imgs/avatar3.jpg" class="testimonial-card-img"
-                                alt="Image harshita">
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Shivansh has a remarkable capacity to listen intently and deliver 
-                                insightful feedback that is both constructive and uplifting. I am so appreciative of his mentorship and 
-                                guidance. He took the time to fully comprehend my individual requirements and objectives before customising 
-                                our work together to assist me in achieving them. To anyone looking for a mentor who is understanding, intelligent, 
-                                and committed to their achievement, I would definitely recommend Shivansh. Shivansh, I appreciate everything you have 
-                                done for me.
-                                </p>
-                            <h6 class="testimonial-card-title">- Harshita Sinha</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of testimonial section -->
+                                    <h4 class="text-violet-400 font-bold">- Shweta</h4>
+                                </div>
+                            </div>
 
-    <!-- blog section -->
-    <section class="section" id="blog">
-        <!-- container -->
-        <div class="container text-center">
-            <p class="section-subtitle">Let's see what I write?</p>
-            <h6 class="section-title mb-6" style="text-decoration: underline">Article</h6>
-            <!-- blog-wrapper -->
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="imgs/violence.jpg" class="blog-card-img"
-                        alt="Blog Cover page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Women Safety is still a concern, why?</h6>
-
-                        <p>But there are still some major concerns hounding us everyday and, we haven’t stood up with a strong solution yet. 
-                            And that is Safety of Women,
-                            domestic violence or rape the statistics are really bad. I know you must be thinking.....</p>
-
-                        <p><b>What is the use of one's education and global technology, if we can't save a precious life.</b>
-                        </p>
-
-                        <a href="https://www.linkedin.com/pulse/womens-safety-never-resolving-concern-shivansh-srivastav-/" class="blog-card-link">Read full article <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div><!-- end of blog wrapper -->
-
-        </div><!-- end of container -->
-    </section><!-- end of blog section -->
-
-    <!-- contact section -->
-    <section class="section" id="contact">
-        <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5" style="text-decoration: underline">Contact Me</h6>
-            <!-- contact form -->
-                  <div class="row d-flex contact-info mb-5" style="background-color: white;">
-                   
-                    <div class="col-md-6 col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
-                        <div class="align-self-stretch box text-center p-4 shadow">
-                                <div>
-                                        <img src="imgs/icons8-phonelink-ring.gif" class="img12">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div class="glass-card p-8 pt-12 relative">
+                                    <div class="absolute -top-7 left-6 w-14 h-14 rounded-full border-2 border-violet-500 bg-slate-900 overflow-hidden shadow-md">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sanchit" alt="Sanchit" class="w-full h-full object-cover">
                                     </div>
-                            <div>
-                                <h5 class="mb-4">Contact Number</h5>
-                              <p><a href="tel://+917985763648">+91 79 8576 3648 | New Delhi, INDIA</a></p>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
-                        <div class="align-self-stretch box text-center p-4 shadow">
-                                <div>
-                                        <img src="imgs/email.gif" class="img11">
+                                    <p class="text-slate-300 italic mb-6 leading-relaxed">
+                                        "I was searching for words that could describe my happiness about your service and how confident I became when I knew exactly what I should do in the next 5-10 years of my life..."
+                                    </p>
+                                    <h4 class="text-violet-400 font-bold">- Sanchit</h4>
+                                </div>
+
+                                <div class="glass-card p-8 pt-12 relative">
+                                    <div class="absolute -top-7 left-6 w-14 h-14 rounded-full border-2 border-violet-500 bg-slate-900 overflow-hidden shadow-md">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Harshita" alt="Harshita" class="w-full h-full object-cover">
                                     </div>
-                            <div>
-                                <h5 class="mb-4">Email Address</h5>
-                              <p><a href="mailto:shivanshthedeveloper@gmail.com">shivanshthedeveloper@gmail.com</a></p>
+                                    <p class="text-slate-300 italic mb-6 leading-relaxed">
+                                        "Shivansh has a remarkable capacity to listen intently and deliver insightful feedback that is both constructive and uplifting. I am so appreciative of his mentorship and guidance."
+                                    </p>
+                                    <h4 class="text-violet-400 font-bold">- Harshita Sinha</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
-                        <div class="align-self-stretch box text-center p-4 shadow">
-                            <div>
-                                <img src="imgs/linkedin.gif" class="img11">
-                            </div>
-                            <div>
-                                <h5 class="mb-4">LinkedIn Profile</h5>
-                              <p><a href="https://linkedin.com/in/shivansh-srivastav">linkedin.com/in/shivansh-srivastav</a></p>
-                          </div>
+                </section>
+                <section id="contact" class="py-24 px-6 relative z-10">
+                <div class="max-w-6xl mx-auto">
+
+                    <!-- Heading -->
+                    <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-violet-500 bg-clip-text text-transparent">
+                        Get In Touch
+                    </h2>
+                    <p class="text-slate-400 text-lg">
+                        I'm always open to discussing new projects and opportunities
+                    </p>
+                    </div>
+
+                    <!-- Cards -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Contact Number -->
+                    <div class="bg-slate-900/60 backdrop-blur-xl border border-slate-800 rounded-2xl p-8 text-center transition-all duration-300 hover:scale-105 hover:border-cyan-500/50">
+                        <div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-2xl">
+                        <!-- Phone Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+                            <path d="M12 18h.01"/>
+                        </svg>
+                        </div>
+                        <br />
+                        <h3 class="text-xl font-semibold text-white mb-2">Contact Number</h3>
+                        <p class="text-slate-300 font-mono text-lg">+91 79 8576 3648</p>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="bg-slate-900/60 backdrop-blur-xl border border-slate-800 rounded-2xl p-8 text-center transition-all duration-300 hover:scale-105 hover:border-violet-500/50">
+                        <div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-2xl">
+                        <!-- Mail Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <rect width="20" height="16" x="2" y="4" rx="2"/>
+                            <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/>
+                        </svg>
+                        </div>
+                        <br />
+                        <h3 class="text-xl font-semibold text-white mb-2">Email Address</h3>
+                        <a href="mailto:shivanshthedeveloper@gmail.com"
+                        class="text-slate-300 text-sm break-all hover:text-cyan-400 transition-colors">
+                        shivanshthedeveloper@gmail.com
+                        </a>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div class="bg-slate-900/60 backdrop-blur-xl border border-slate-800 rounded-2xl p-8 text-center transition-all duration-300 hover:scale-105 hover:border-blue-500/50">
+                        <div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-2xl">
+                        <!-- LinkedIn Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect width="4" height="12" x="2" y="9"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                        </div>
+                        <br />
+                        <h3 class="text-xl font-semibold text-white mb-2">LinkedIn Profile</h3>
+                        <a href="https://linkedin.com/in/shivansh-srivastav"
+                        target="_blank"
+                        class="text-slate-300 text-sm hover:text-cyan-400 transition-colors truncate block">
+                        linkedin.com/in/shivansh-srivastav
+                        </a>
+                    </div>
+
+                    </div>
+                </div>
+                </section>
+                <footer class="border-t border-white/10 py-12 px-6 relative z-10">
+                    <div class="max-w-6xl mx-auto">
+                        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                            <p class="text-slate-400 text-sm">© 2024 <span class="gradient-text font-semibold"><span
+                                        style="display: contents;">Shivansh Srivastav</span></span></p>
+                            <div class="flex items-center gap-4"><a href="https://github.com/shivansh408"
+                                    target="_blank" rel="noopener noreferrer" class="social-icon-small"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-github" aria-hidden="true">
+                                        <path
+                                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                        </path>
+                                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                    </svg></a><a href="https://linkedin.com/in/shivansh-srivastav" target="_blank"
+                                    rel="noopener noreferrer" class="social-icon-small"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-linkedin" aria-hidden="true">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg></a><a href="mailto:shivansh@example.com" class="social-icon-small"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-mail" aria-hidden="true">
+                                        <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                    </svg></a></div>
                         </div>
                     </div>
-                  </div>
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
-
-    <!-- footer -->
-    <div class="container">
-        <footer class="footer">
-            <p class="mb-0"><b>Connect with me here!</b>
-            </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-linkedin"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-github"></i></a>
+                </footer>
             </div>
-        </footer>
-    </div> <!-- end of page footer -->
-
-    <!-- core  -->
-    <script src="vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="vendors/bootstrap/bootstrap.bundle.js"></script>
-
-    <!-- bootstrap 3 affix -->
-    <script src="vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- Meyawo js -->
-    <script src="js/meyawo.js"></script>
-
+            <div role="region" aria-label="Notifications (F8)" tabindex="-1" style="pointer-events: none;">
+                <ol tabindex="-1"
+                    class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]">
+                </ol>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
